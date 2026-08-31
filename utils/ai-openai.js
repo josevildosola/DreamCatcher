@@ -1,7 +1,6 @@
 import OpenAI from 'openai';
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-  baseUrl: process.env.AI_BASE_URL
+  apiKey: process.env.OPENAI_API_KEY
   });
 
 // Call OpenAI API for dream interpretation
